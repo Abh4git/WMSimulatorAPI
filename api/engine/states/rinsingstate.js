@@ -1,6 +1,6 @@
-const State = require("./state");
+const StateBase = require("./statebase");
 
-class Rinsing extends State{
+class Rinsing extends StateBase{
 	constructor()
     {
         super()

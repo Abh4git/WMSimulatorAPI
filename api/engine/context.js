@@ -1,15 +1,15 @@
-const State = require("./state");
+const StateBase = require("./states/statebase");
 
 class Context{
 	
-	constructor(State)
+	constructor(StateBase)
 	{ 
-		this.state=State;
+		this.state=StateBase;
 	}
 
-   changeState(State)
+   changeState(StateBase)
    {
-       this.state =State;
+       this.state =StateBase;
  
    }
     doAction()

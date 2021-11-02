@@ -1,9 +1,9 @@
-const State = require("./state");
+const StateBase = require("./statebase");
 
 
 
 
-class Drying extends State{
+class Drying extends StateBase{
 	
 	constructor()
     {

@@ -1,9 +1,6 @@
-const State = require("./state");
+const StateBase = require("./statebase");
 
-const Rinsing = require("./rinsingstate");
-
-
-class WaterCollection extends State{
+class WaterCollection extends StateBase{
 	
 	constructor()
     {
@@ -14,6 +11,7 @@ class WaterCollection extends State{
     performAction()
     {
         console.log('Watercollection started')
+        
     }
 
     

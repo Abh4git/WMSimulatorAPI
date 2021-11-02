@@ -1,8 +1,7 @@
-class Strategy{
+class StrategyBase{
 	
 	constructor()
 	{
-		//this.name=name;
 		
 	}
 
@@ -13,4 +12,4 @@ class Strategy{
 	
 }
 
-module.exports=Strategy;
+module.exports=StrategyBase;

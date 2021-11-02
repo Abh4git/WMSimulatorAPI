@@ -1,13 +1,7 @@
-const Context = require("./context");
 
-class State{
+//Base class for States
+class StateBase{
 	
-	/*(Context)
-	{
-		this.context=Context;
-		
-	}*/
-
     constructor()
     {
 
@@ -21,4 +15,4 @@ class State{
 	
 }
 
-module.exports=State;
+module.exports=StateBase;

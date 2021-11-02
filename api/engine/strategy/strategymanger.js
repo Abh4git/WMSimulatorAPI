@@ -1,4 +1,4 @@
-const Strategy = require("./strategy")
+const Strategy = require("./strategybase")
 
 
 class StrategyManager {
